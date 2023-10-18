@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT CVVJZ4_ertodtd (cvvjz4_modell)>
+
+<!ELEMENT cvvjz4_modell (A*,B*,C*)>
+
+<!ELEMENT A (a, b, c)>
+<!ATTLIST b
+    x CDATA #REQUIRED
+    y CDATA #REQUIRED
+>
+<!ATTLIST c 
+    d CDATA #required
+    e CDATA #required
+>
+
+<!ELEMENT C (a, b)>
+
+<!ELEMENT B (a,b)>
+<!ATTLIST b
+    x #CDATA #required
+    y #CDATA #required
+>

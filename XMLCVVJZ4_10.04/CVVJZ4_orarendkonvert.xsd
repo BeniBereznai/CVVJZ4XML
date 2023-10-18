@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    
+    <xs:complexType name="IdopontType">
+        <xs:sequence>
+            <xs:element name="ora" type="xs:string"/>
+            <xs:element name="nap" type="xs:string"/>
+            <xs:element name="tol" type="xs:string"/>
+            <xs:element name="ig" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="OraType">
+        <xs:sequence>
+            <xs:element name="idopont" type="IdopontType"/>
+            <xs:element name="helyszin" type="xs:string"/>
+            <xs:element name="oktato" type="xs:string"/>
+            <xs:element name="szak" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required"/>
+        <xs:attribute name="típus" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="OrarendType">
+        <xs:sequence>
+            <xs:element name="ora" type="OraType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="CVVJZ4_orarend" type="OrarendType"/>
+</xs:schema>
