@@ -1,0 +1,39 @@
+
+<xs:element name="cim" type="xs:string"/>
+<xs:element name="szerzo" type="xs:string"/>
+<xs:element name="nev" type="xs:string"/>
+<xs:element name="baratja" type="xs:string"/>
+<xs:element name="született" type="xs:string"/>
+<xs:element name="jellemzes" type="xs:string"/>
+<xs:attribute name="isbn" type="xs:string"/>
+
+
+
+
+<xs:schema xmln:xs="http://www.w3.org/2001/XMLSchema-instance" elementFormDefault="qualified">
+
+    <xs:element name="konyvek">
+        <xs:complextype>
+            <xs:sequence>
+                <xs:element name="konyv">
+                    <xs:complextype>
+                        <xs:sequence>
+                            <xs:element ref="cim" minOccurs="0" maxoccurs="1"/>
+                            <xs:element ref="szerzo"/>
+                            <xs:element name="szereplo" minOccurs="0" maxoccurs="20"/>
+                                <xs:complextype>
+                                    <xs:sequence>
+                                        <xs:element ref="nev"/>
+                                        <xs:element ref="baratja" />
+                                        <xs:element ref="szuletett"/>
+                                        <xs:element ref="jellemtes"/>
+                                    </xs:sequence>
+                                </xs:complextype>
+                            </xs:element>
+                        </xs:sequence>
+                    <xs:attribute ref="isbn"/>
+                </xs:complextype>
+            </xs:element>
+        <xs:complextype>  
+    </xs:element>
+</xs:schema>
