@@ -1,0 +1,118 @@
+import java.io.File;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+public class DomWriteCVVJZ4 {
+    public static void main(String[] args) {
+        try {
+            // Create a new Document
+            DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
+            Document document = documentBuilder.newDocument();
+
+            // Create the root element
+            Element kurzusfelvetelElement = document.createElement("Kurzusfelvetel");
+            kurzusfelvetelElement.setAttribute("tanév", "2023/2024");
+            kurzusfelvetelElement.setAttribute("egyetem", "ME");
+            document.appendChild(kurzusfelvetelElement);
+
+            // Create the 'hallgato' element and its child elements
+            Element hallgatoElement = document.createElement("hallgato");
+            kurzusfelvetelElement.appendChild(hallgatoElement);
+            createElementWithTextContent(document, hallgatoElement, "nev", "Bereznai Benjamin");
+            createElementWithTextContent(document, hallgatoElement, "szuletett", "2002-10-18");
+            createElementWithTextContent(document, hallgatoElement, "szak", "Mérnök Informatika");
+
+            // Create the 'kurzusok' element and its child elements
+            Element kurzusokElement = document.createElement("kurzusok");
+            kurzusfelvetelElement.appendChild(kurzusokElement);
+
+            String[] kurzusNames = {
+                "XML",
+                "Fizika 2",
+                "Elektronika",
+                "Szoftvertesztelés",
+                "Web Tech",
+                "Mesterséges intelligencia"
+            };
+            int[] kreditValues = { 5, 4, 5, 5, 5, 5 };
+            String[] idopontValues = {
+                "Szerda 12-14",
+                "Szerda 16-18",
+                "Kedd 8-10",
+                "Hetfo 10-14",
+                "HEtfo 14-18",
+                "Kedd 10-12"
+            };
+            String[] helyValues = {
+                "IIT. 103",
+                "A1/316",
+                "A1/306",
+                "IIT. 103",
+                "IIT. 101",
+                "A1/XXXII"
+            };
+            String[] oktatoValues = {
+                "Dr. Bednarik László",
+                "Pszota Gábor",
+                "Szabo Norbert",
+                "Dr. Hornyák Olivér",
+                "Agárdi Anita",
+                "Kun Tamásné"
+            };
+
+            for (int i = 0; i < kurzusNames.length; i++) {
+                Element kurzusElement = document.createElement("kurzus");
+                kurzusoskElement.setAttribute("id", String.valueOf(i));
+                kurzusoskElement.setAttribute("jovahagyas", "igen");
+                kurzusokElement.appendChild(kurzusElement);
+
+                createElementWithTextContent(document, kurzusElement, "kurzusnev", kurzusNames[i]);
+                createElementWithTextContent(document, kurzusElement, "kredit", String.valueOf(kreditValues[i]));
+                createElementWithTextContent(document, kurzusElement, "idopont", idopontValues[i]);
+                createElementWithTextContent(document, kurzusElement, "hely", helyValues[i]);
+                createElementWithTextContent(document, kurzusElement, "oktato", oktatoValues[i]);
+            }
+
+            // Print the XML structure to the console
+            printXmlStructure(document.getDocumentElement(), "");
+
+            // Write the XML document to a new file
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            DOMSource source = new DOMSource(document);
+            StreamResult result = new StreamResult(new File("kurzufelvetel1CVVJZ4.xml"));
+            transformer.transform(source, result);
+
+            System.out.println("\nXML document has been created and written to kurzufelvetel1CVVJZ4.xml");
+        } catch (ParserConfigurationException | TransformerException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void createElementWithTextContent(Document document, Element parentElement, String elementName, String textContent) {
+        Element element = document.createElement(elementName);
+        element.setTextContent(textContent);
+        parentElement.appendChild(element);
+    }
+
+    private static void printXmlStructure(Element element, String indent) {
+        System.out.println(indent + element.getTagName());
+
+        NodeList childNodes = element.getChildNodes();
+        for (int i = 0; i < childNodes.getLength(); i++) {
+            Node node = childNodes.item(i);
+            if (node instanceof Element) {
+                printXmlStructure((Element) node, indent + "  ");
+            }
+        }
+    }
+}
