@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Fesztivál_DLWGQZ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="XMLSchemadlwgqz.xsd">
+
+    <Fesztivál FESZ_ID="1">
+        <név>VOLT Fesztivál</név>
+        <helyszín>Sopron</helyszín>
+        <év>2022</év>
+    </Fesztivál>    
+    <Fesztivál FESZ_ID="2">
+        <név>Kocsonyafesztivál</név>
+        <helyszín>Miskolc</helyszín>
+        <év>2023</év>
+    </Fesztivál>
+
+
+    <Tulajdonos T_ID="11" fesztivál="1">
+        <név>Sziget Kulturális Szervezőiroda</név>
+        <adószám>14657387-4-32</adószám>
+        <alapítás>1993</alapítás>
+        <bevétel>65134000</bevétel>
+    </Tulajdonos>
+    <Tulajdonos T_ID="12" fesztivál="2">
+        <név>Miskolc Város Önkormányzata</név>
+        <adószám>18765498-5-25</adószám>
+        <alapítás>2000</alapítás>
+        <bevétel>435600</bevétel>
+    </Tulajdonos>
+    
+
+    <Fellépő FEL_ID="21" fesztivál="2">
+        <név>Halott Pénz</név>
+        <ország>Magyarország</ország>
+        <díj>70000</díj>
+    </Fellépő>
+    <Fellépő FEL_ID="22" fesztivál="1">
+        <név>Rammstein</név>
+        <ország>Németország</ország>
+        <díj>1100000</díj>
+    </Fellépő>
+
+    <Bár B_ID="101" fesztivál="1">
+        <név>Tokaji Sátor</név>
+        <ital>tokaji aszú</ital>
+        <ital>gyöngyözőbor</ital>
+        <ital>borsodi sör</ital>
+        <cég>Tokaj Hegyalja kft.</cég>
+    </Bár>
+    <Bár B_ID="102" fesztivál="2">
+        <név>Fröccsműhely</név>
+        <ital>szódavíz</ital>
+        <ital>kisfröccs</ital>
+        <ital>házmester</ital>
+        <ital>műhely fehérbor</ital>
+        <cég>Kovács és fia kft.</cég>
+    </Bár>
+
+    <Alkalmazott A_ID="1001" munkahely="101">
+        <név>Nagy Emese</név>
+        <muszak>8-16</muszak>
+        <muszak>18-22</muszak>
+        <fizetés>50000</fizetés>
+    </Alkalmazott>
+    <Alkalmazott A_ID="1002" munkahely="102">
+        <név>Kovács Ferenc</név>
+        <muszak>16-20</muszak>
+        <fizetés>40000</fizetés>
+    </Alkalmazott>
+
+    <Résztvevő R_ID="5001" fesztivál="1">
+        <név>Vincze Máté Tamás</név>
+        <diákigazolvány>71678254523</diákigazolvány>
+        <lakcím>
+            <település>Miskolc</település>
+            <utca>Aggteleki</utca>
+            <házszám>5</házszám>
+        </lakcím>
+    </Résztvevő>
+    <Résztvevő R_ID="5002" fesztivál="2">
+        <név>Bényi Levente</név>
+        <lakcím>
+            <település>Szikszó</település>
+            <utca>Temesvári</utca>
+            <házszám>12</házszám>
+        </lakcím>
+    </Résztvevő>
+
+    <Nyelvtudás NY_ID="2001">
+        <nyelv>angol</nyelv>
+        <szint>B2</szint>
+    </Nyelvtudás>
+    <Nyelvtudás NY_ID="2002">
+        <nyelv>német</nyelv>
+        <szint>C1</szint>
+    </Nyelvtudás>
+
+    <Közvélemény K_ID="1" megkérdezett="5002" nyelvtudás="2001">
+        <kérdező>Bertalan Péter</kérdező>
+    </Közvélemény>
+    <Közvélemény K_ID="2" megkérdezett="5002" nyelvtudás="2002">
+        <kérdező>Bertalan Péter</kérdező>
+    </Közvélemény>
+    <Közvélemény K_ID="3" megkérdezett="5001" nyelvtudás="2001">
+        <kérdező>Galambos Eszter Nóra</kérdező>
+    </Közvélemény>
+
+</Fesztivál_DLWGQZ>
+
+    
