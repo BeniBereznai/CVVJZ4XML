@@ -1,0 +1,22 @@
+<class>
+    <student id="1">
+        <keresztnev>John</keresztnev>
+        <vezeteknev>Doe</vezeteknev>
+        <becenev>Johnny</becenev>
+        <kor>22</kor>
+    </student>
+
+    <student id="2">
+        <keresztnev>Jane</keresztnev>
+        <vezeteknev>Smith</vezeteknev>
+        <becenev>Janny</becenev>
+        <kor>21</kor>
+    </student>
+
+    <student id="3">
+        <keresztnev>Bob</keresztnev>
+        <vezeteknev>Johnson</vezeteknev>
+        <becenev>Bobby</becenev>
+        <kor>23</kor>
+    </student>
+</class>
