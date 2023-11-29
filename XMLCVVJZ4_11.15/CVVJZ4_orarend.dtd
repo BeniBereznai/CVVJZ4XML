@@ -1,0 +1,19 @@
+<!DOCTYPE CVVJZ4_orarend SYSTEM "CVVJZ4_orarend.dtd">
+<!ELEMENT CVVJZ4_orarend (orarend)>
+
+<!ELEMENT orarend (ora+)>
+
+<!ELEMENT ora (idopont, helyszin, oktato, szak)>
+<!ATTLIST ora
+    id CDATA #REQUIRED
+    típus CDATA #REQUIRED
+>
+
+<!ELEMENT idopont (nap, tol, ig)>
+<!ELEMENT nap (#PCDATA)>
+<!ELEMENT tol (#PCDATA)>
+<!ELEMENT ig (#PCDATA)>
+
+<!ELEMENT helyszin (#PCDATA)>
+<!ELEMENT oktato (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>
