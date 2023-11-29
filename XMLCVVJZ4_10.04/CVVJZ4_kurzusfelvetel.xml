@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE CVVJz4_kurzusfelvetel SYSTEM "CVVJ4_kurzusfelvetel.dtd">
+
+<CVVJz4_kurzusfelvetel tanev="2023/2024" egyetem="ME">
+
+    <hallgato id="CVVJz4.ME">
+        <nev>BereznaiBenjamin</nev>
+        <szulev>2002.10.18.</szulev>
+        <szak evf="5">Mérnökinformatikus Bsc</szak>
+    </hallgato>
+
+    <kurzusok>
+        <kurzus id="GEIAL332-B">
+            <kurzusnev>Adatkezelés XML környezetben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII.</hely>
+            <idopont>Kedd 12:00-13:30</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+
+        <kurzus id="GEFIT012-B" jovahagyas="igen">
+            <kurzusnev>Fizika II.</kurzusnev>
+            <kredit>4</kredit>
+            <hely>A1/12.</hely>
+            <idopont>Hétfő 10:00-12:00</idopont>
+            <oktato>Dr. Pszota Gábor</oktato>
+            <oraado>Nagy Ádám</oraado>
+        </kurzus>
+    </kurzusok>
+
+</CVVJz4_kurzusfelvetel>
