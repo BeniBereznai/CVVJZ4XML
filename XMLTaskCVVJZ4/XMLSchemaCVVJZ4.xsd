@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!--Egyszerű típusok-->
+
+    <!--Gyógyszertár-->
+    <xs:element name="Név" type="xs:string" />
+    <xs:element name="email" type="xs:string" />
+    <xs:element name="Telefonszám" type="xs:int" />
+    <xs:element name="Város" type="xs:string" />
+    <xs:element name="Utca" type="xs:string" />
+    <xs:element name="Házszám" type="xs:int" />
+
+    <!--Dolgozó-->
+
+    <xs:element name="Név" type="xs:string" />
+    <xs:element name="email" type="xs:string" />
+    <xs:element name="Telefonszám" type="xs:int" />
+    <xs:element name="Város" type="xs:string" />
+    <xs:element name="Utca" type="xs:string" />
+    <xs:element name="Házszám" type="xs:int" />    
+    <xs:element name="Év" type="evTipus" />
+    <xs:element name="Hónap" type="honapTipus" />
+    <xs:element name="Nap" type="napTipus" />
+
+    <!--Gyógyszerkiadás-->
+
+    <xs:element name="Ár" type="arTipus" />
+    <xs:element name="Készpénz" type="xs:int" />
+    <xs:element name="Bankártya" type="xs:int" />
+    <xs:element name="Forgalmazó" type="xs:string" />
+
+    <!--Kívánttermék kapcsolat-->
+
+    <xs:element name="Árukészlet" type="xs:int" />
+    <xs:element name="Beérkezés" type="datumTipus" />
+
+    <!--Gyógyszer-->
+
+    <xs:element name="Név" type="xs:string" />
+    <xs:element name="Hatóanyag" type="hatoanyagTipus" />
+    <xs:element name="Vényköteles" type="xs:string" />
+    <xs:element name="Kiszerelés" type="xs:int" />
+    <xs:element name="Ár" type="xs:arTipus" />
+
+    <!--Beteg-->
+
+    <xs:element name="Név" type="xs:string" />
+    <xs:element name="Város" type="xs:string" />
+    <xs:element name="Utca" type="xs:string" />
+    <xs:element name="Házszám" type="xs:int" />   
+    <xs:element name="email" type="xs:string" />
+    <xs:element name="Telefonszám" type="xs:int" />
+
+
+    <!--Saját tipusok-->
+
+    <xs:simpleType name="arTipus">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="500" />
+            <xs:maxInclusive value="5000" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="evTipus">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="1920" />
+            <xs:maxInclusive value="2023" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="honapTipus">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="12" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="napTipus">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="31" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="datumTipus">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([12]\d{3}.(0[1-9]|1[0-2]).(0[1-9]|[12]\d|3[01]))" />
+        </xs:restriction>
+    </xs:simpleType>    
+
+    <xs:simpleType name="hatoanyagTipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Antihisztamin" />
+            <xs:enumeration value="Bór" />
+            <xs:enumeration value="C-vitamin" />
+            <xs:enumeration value="D-vitamin" />
+            <xs:enumeration value="E-vitamin" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--Komplex tipusok-->
+
+    <xs:complexType name="gyogyszertarTípus">
+        <xs:sequence>        
+            <xs:element ref="Név" />
+            <xs:element ref="email" />
+            <xs:element ref="Telefonszám" />
+            <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="Város" />
+                        <xs:element ref="Utca" />
+                        <xs:element ref="Házszám" />
+                    </xs:sequence>
+                </xs:complexType>
+        </xs:sequence>
+            <xs:attribute name="Did" type="xs:integer" use="required" />
+            <xs:attribute name="Kid" type="xs:integer" use="required" />
+    </xs:complexType>    
+
+    <xs:complexType name="dolgozoTípus">
+        <xs:sequence>
+            <xs:element ref="Név" />
+            <xs:element ref="email" />
+            <xs:element ref="Telefonszám" />
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="Város" />
+                        <xs:element ref="Utca" />
+                        <xs:element ref="Házszám" />
+                    </xs:sequence>
+                </xs:complexType>
+            <xs:complexType>
+                <xs:sequence>
+                        <xs:element ref="Év" />
+                        <xs:element ref="Hónap" />
+                        <xs:element ref="Nap" />
+                </xs:sequence>
+            </xs:complexType>
+        </xs:sequence>
+            <xs:attribute name="Did" type="xs:integer" />
+            <xs:attribute name="Tid" type="xs:integer" />
+    </xs:complexType>  
+
+    <xs:complexType name="gyogyszerkiadasTípus">
+        <xs:sequence>
+            <xs:element ref="Ár" />
+            <xs:element ref="Forgalmazó" />
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="Készpénz" />
+                        <xs:element ref="Bankártya" />
+                    </xs:sequence>
+                </xs:complexType>
+        </xs:sequence>
+            <xs:attribute name="Kid" type="xs:integer" use="required"/>
+            <xs:attribute name="Tid" type="xs:integer" />
+    </xs:complexType>  
+
+    <xs:complexType name="kivanttermekTípus">
+        <xs:sequence>
+            <xs:element ref="Árukészlet" />
+            <xs:element ref="Beérkezés" />
+        </xs:sequence>
+            <xs:attribute name="Kid" type="xs:integer" use="required"/>
+            <xs:attribute name="GYid" type="xs:integer" use="required"/>
+    </xs:complexType>  
+
+     <xs:complexType name="gyogyszerTípus">
+        <xs:sequence>
+            <xs:element ref="Név" />
+            <xs:element ref="Forgalmazó" />
+            <xs:element ref="Vényköteles" />
+            <xs:element ref="Hatóanyag" />
+            <xs:element ref="Ár" />
+            <xs:element ref="Kiszerelés" />
+        </xs:sequence>
+            <xs:attribute name="GYid" type="xs:integer" />
+    </xs:complexType>  
+
+        <xs:complexType name="betegTípus">
+        <xs:sequence>
+            <xs:element ref="Név" />
+            <xs:element ref="email" />
+            <xs:element ref="Telefonszám" />
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="Város" />
+                        <xs:element ref="Utca" />
+                        <xs:element ref="Házszám" />
+                    </xs:sequence>
+                </xs:complexType>
+        </xs:sequence>
+            <xs:attribute name="Kid" type="xs:integer" use="required"/>
+            <xs:attribute name="Bid" type="xs:integer" />
+    </xs:complexType>  
+
+    <xs:element name="Gyogyszerarusitas_CVVJZ4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Gyógyszertár" type="gyogyszertarTípus" minOccurs="1" maxOccurs="10"/>
+                <xs:element name="Dolgozó" type="dolgozoTípus" minOccurs="1" maxOccurs="100"/>
+                <xs:element name="GyógyszerKiadás" type="gyogyszerkiadasTípus" minOccurs="1" maxOccurs="1000"/>
+                <xs:element name="Beteg" type="betegTípus" minOccurs="1" maxOccurs="100"/>
+                <xs:element name="Gyógyszer" type="gyogyszerTípus" minOccurs="1" maxOccurs="100"/>
+                <xs:element name="Kívánttermék" type="kivanttermekTípus" minOccurs="1" maxOccurs="100"/>
+            </xs:sequence>
+        </xs:complexType>   
+
+        <!--Primary key-->
+
+        <xs:key name="Gyogyszertár_key">
+            <xs:selector xpath="Gyógyszertár"/>
+            <xs:field xpath="@Tid"/>
+        </xs:key>
+
+        <xs:key name="Dolgozó_key">
+            <xs:selector xpath="Dolgozó"/>
+            <xs:field xpath="@Did"/>
+        </xs:key>
+
+        <xs:key name="Gyógyszerkiadás_key">
+            <xs:selector xpath="GyógyszerKiadás"/>
+            <xs:field xpath="@Kid"/>
+        </xs:key>
+
+        <xs:key name="Beteg_key">
+            <xs:selector xpath="Beteg"/>
+            <xs:field xpath="@Bid"/>
+        </xs:key>
+
+        <xs:key name="Gyógyszer_key">
+            <xs:selector xpath="Gyógyszer"/>
+            <xs:field xpath="@GYid"/>
+        </xs:key>
+
+        <!--Foregin key-->
+
+        <xs:keyref name="Gyogyszertár_gyógyszerkiadás_key" refer="Gyógyszertár_key">
+            <xs:selector xpath="GyógyszerKiadás"/>
+            <xs:field xpath="@Tid"/>
+        </xs:keyref>
+
+        <xs:keyref name="Gyogyszertár_dolgozó_key" refer="Gyógyszertár_key">
+            <xs:selector xpath="Dolgozó"/>
+            <xs:field xpath="@Tid"/>
+        </xs:keyref>
+
+        <xs:keyref name="Gyógyszerkiadás_kívánttermék_key" refer="Gyógyszerkiadás_key">
+            <xs:selector xpath="Kívánttermék"/>
+            <xs:field xpath="@Kid"/>
+        </xs:keyref>
+
+        <xs:keyref name="Gyogyszertár_kívánttermék_key" refer="Gyógyszer_key">
+            <xs:selector xpath="Kívánttermék"/>
+            <xs:field xpath="@GYid"/>
+        </xs:keyref>
+
+        <!-- 1-1 kapcsolat -->
+
+        <xs:unique name="kiadas_beteg">
+            <xs:selector xpath="kiadas"/>
+            <xs:field xpath="@Kid"/>
+        </xs:unique>   
+
+    </xs:element>
+</xs:schema>
