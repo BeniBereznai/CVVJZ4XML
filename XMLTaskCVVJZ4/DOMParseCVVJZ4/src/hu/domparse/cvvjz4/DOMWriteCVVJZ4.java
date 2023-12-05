@@ -11,7 +11,6 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -37,7 +36,7 @@ public class DOMWriteCVVJZ4 {
             String ujNev = "Benu gyógyszertár";
             setGyogyszertarNev(gyogyszertarElement, ujNev);
             // Új Város beállítása
-            modifyCityForDolgozo(doc, "5", "Zalakaros");
+            modifyCityForDolgozo(doc, "5", "Nagykanizsa");
             // Ha a beérkezés dátuma 09.24-29 módosítsa
             modifyBeErkezesDate(doc, "2023.09.24", "2023.09.29", "2023.09.27");
             // Hatóanyag módosítás
@@ -153,14 +152,20 @@ public class DOMWriteCVVJZ4 {
 
 
     // Módosított dokumentum mentése
-    private static void saveDocument(Document doc, String outputinputFilePath) throws Exception {
+    private static void saveDocument(Document doc, String outputFilePath) throws Exception {
+        // Eltávolítjuk a kikapcsolt formázást
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
-        Transformer transformer = transformerFactory.newTransformer();
-        transformer.setOutputProperty(javax.xml.transform.OutputKeys.INDENT, "yes");
+        transformerFactory.setAttribute("indent-number", 0);
 
-        // Módosított dokumentum mentése a fájlba
-        FileOutputStream fileOutputStream = new FileOutputStream(outputinputFilePath);
-        transformer.transform(new DOMSource(doc), new StreamResult(fileOutputStream));
-        fileOutputStream.close();
+        Transformer transformer = transformerFactory.newTransformer();
+
+        // Általános kiíratás és üres helyek eltávolítása
+        transformer.setOutputProperty(javax.xml.transform.OutputKeys.METHOD, "html");
+        transformer.setOutputProperty(javax.xml.transform.OutputKeys.INDENT, "no");
+
+        // Az XML mentése a fájlba
+        try (FileOutputStream os = new FileOutputStream(outputFilePath)) {
+            transformer.transform(new DOMSource(doc), new StreamResult(os));
+        }
     }
 }

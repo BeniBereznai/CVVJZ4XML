@@ -1,2028 +1,562 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Gyógyszerárusitás_CVVJZ4 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaCVVJZ4.xsd">
-                
-    
-    
+
     <!--Gyógyszertár-->
-                
-    
-    
+
     <Gyógyszertár GYID="1">
-                                
-        
-        
-        <Név>Alma Gyógyszertár</Név>
-                          
-        
-        
-        
-        <Email>alma.gyogyszertar@gmail.com</Email>
-                          
-        
-        
-        
+        <Név>Alma Gyógyszertár</Név>  
+        <Email>alma.gyogyszertar@gmail.com</Email>  
         <Telefonszám>06486443323</Telefonszám>
-                                
-        
-        
         <Cím>
-                                                
-            
-            
             <Város>Miskolc</Város>
-                                                
-            
-            
             <Utca>Csabai Kapu</Utca>
-                                                
-            
-            
             <Házszám>3</Házszám>
-                                            
-        
-        
         </Cím>
-                            
-    
-    
-    </Gyógyszertár>
-               
+    </Gyógyszertár>   
 
-    
-    
-    
     <Gyógyszertár GYID="2">
-                            
-        
-        
-        <Név>Rózsa Gyógyszertár</Név>
-                          
-    
-        
-        
-        <Email>rozsa.gyogyszertar@gmail.com</Email>
-                            
-        
-        
-        <Telefonszám>06301234567</Telefonszám>
-                            
-        
-        
-        <Cím>
-                                            
-            
-            
-            <Város>Budapest</Város>
-                                            
-            
-            
-            <Utca>Kossuth Lajos utca</Utca>
-                                            
-            
-            
-            <Házszám>10</Házszám>
-                                        
-        
-        
-        </Cím>
-                            
-    
-    
+    <Név>Rózsa Gyógyszertár</Név>  
+    <Email>rozsa.gyogyszertar@gmail.com</Email>
+    <Telefonszám>06301234567</Telefonszám>
+    <Cím>
+        <Város>Budapest</Város>
+        <Utca>Kossuth Lajos utca</Utca>
+        <Házszám>10</Házszám>
+    </Cím>
     </Gyógyszertár>
-                
-    
-    
+
     <Gyógyszertár GYID="3">
-                            
-        
-        
-        <Név>Tavaszi gyógyszertár</Név>
-                          
-    
-        
-        
-        <Email>tavaszi.gyogyszertar@gmail.com</Email>
-                          
-    
-        
-        
-        <Telefonszám>06209876543</Telefonszám>
-                            
-        
-        
-        <Cím>
-                                            
-            
-            
-            <Város>Szeged</Város>
-                                            
-            
-            
-            <Utca>Aradi vértanúk tere</Utca>
-                                            
-            
-            
-            <Házszám>5</Házszám>
-                                        
-        
-        
-        </Cím>
-                            
-    
-    
+    <Név>Tavaszi Gyógyszertár</Név>  
+    <Email>tavaszi.gyogyszertar@gmail.com</Email>  
+    <Telefonszám>06209876543</Telefonszám>
+    <Cím>
+        <Város>Szeged</Város>
+        <Utca>Aradi vértanúk tere</Utca>
+        <Házszám>5</Házszám>
+    </Cím>
     </Gyógyszertár>
-                
-    
-    
+
     <Gyógyszertár GYID="4">
-                            
-        
-        
-        <Név>Napfény Gyógyszertár</Név>
-                          
-    
-        
-        
-        <Email>napfeny.gyogyszertar@gmail.com</Email>
-                          
-    
-        
-        
-        <Telefonszám>06525557890</Telefonszám>
-                            
-        
-        
-        <Cím>
-                                            
-            
-            
-            <Város>Debrecen</Város>
-                                            
-            
-            
-            <Utca>Piac utca</Utca>
-                                            
-            
-            
-            <Házszám>8</Házszám>
-                                        
-        
-        
-        </Cím>
-                            
-    
-    
+    <Név>Napfény Gyógyszertár</Név>  
+    <Email>napfeny.gyogyszertar@gmail.com</Email>  
+    <Telefonszám>06525557890</Telefonszám>
+    <Cím>
+        <Város>Debrecen</Város>
+        <Utca>Piac utca</Utca>
+        <Házszám>8</Házszám>
+    </Cím>
     </Gyógyszertár>
-                
-    
-    
+
     <Gyógyszertár GYID="5">
-                            
-        
-        
-        <Név>Szent András Gyógyszertár</Név>
-                          
-    
-        
-        
-        <Email>szent.andras.gyogyszertar@gmail.com</Email>
-                          
-    
-        
-        
-        <Telefonszám>067023331122</Telefonszám>
-                            
-        
-        
-        <Cím>
-                                            
-            
-            
-            <Város>Pécs</Város>
-                                            
-            
-            
-            <Utca>Szent István tér</Utca>
-                                            
-            
-            
-            <Házszám>12</Házszám>
-                                        
-        
-        
-        </Cím>
-                            
-    
-    
+    <Név>Szent András Gyógyszertár</Név>  
+    <Email>szent.andras.gyogyszertar@gmail.com</Email>  
+    <Telefonszám>067023331122</Telefonszám>
+    <Cím>
+        <Város>Pécs</Város>
+        <Utca>Szent István tér</Utca>
+        <Házszám>12</Házszám>
+    </Cím>
     </Gyógyszertár>
-                
-    
-    
+
     <!--Dolgozó Pécs-->
-                
-    
-    
-    <Dolgozó Did="11" Tid="5">
-                            
-        
-        
-        <Név>Kis János</Név>
-                                
-        
-        
+    <Dolgozó Did='11' Tid='5'>
+    <Név>Kis János</Név>
         <SzületésiDátum>
-                                                
-            
-            
             <Év>1977</Év>
-                                                
-            
-            
             <Hónap>8</Hónap>
-                                                
-            
-            
             <Nap>29</Nap>
-                                            
-        
-        
         </SzületésiDátum>
-                                
-        
-        
         <Lakcím>
-                                                
-            
-            
             <Város>Pécs</Város>
-                                                
-            
-            
             <Utca>Mókus utca</Utca>
-                                                
-            
-            
             <Házszám>3</Házszám>
-                                            
-        
-        
         </Lakcím>
-                                
-        
-        
         <Telefonszám>06703331322</Telefonszám>
-                                
-        
-        
         <Email>Janika.Kis@gmail.com</Email>
-                            
-    
-    
     </Dolgozó>
-                
-    
-    
-    <Dolgozó Did="12" Tid="5">
-                                    
-        
-        
-        <Név>Nagy Éva</Név>
-                                    
-        
-        
-        <SzületésiDátum>
-                                                    
-            
-            
-            <Év>1985</Év>
-                                                    
-            
-            
-            <Hónap>4</Hónap>
-                                                    
-            
-            
-            <Nap>15</Nap>
-                                                
-        
-        
-        </SzületésiDátum>
-                                    
-        
-        
-        <Lakcím>
-                                                    
-            
-            
-            <Város>Pécs</Város>
-                                                    
-            
-            
-            <Utca>Szép utca</Utca>
-                                                    
-            
-            
-            <Házszám>8</Házszám>
-                                                
-        
-        
-        </Lakcím>
-                                    
-        
-        
-        <Telefonszám>06305559876</Telefonszám>
-                                    
-        
-        
-        <Email>Eva.Nagy@gmail.com</Email>
-                            
-    
-    
-    </Dolgozó>
-                
-    
-    
-    <!--Dolgozó Miskolc-->
-                
 
-    
-    
-    
-    <Dolgozó Did="14" Tid="1">
-                                
-        
-        
+    <Dolgozó Did='12' Tid='5'>
+            <Név>Nagy Éva</Név>
+            <SzületésiDátum>
+                <Év>1985</Év>
+                <Hónap>4</Hónap>
+                <Nap>15</Nap>
+            </SzületésiDátum>
+            <Lakcím>
+                <Város>Pécs</Város>
+                <Utca>Szép utca</Utca>
+                <Házszám>8</Házszám>
+            </Lakcím>
+            <Telefonszám>06305559876</Telefonszám>
+            <Email>Eva.Nagy@gmail.com</Email>
+    </Dolgozó>
+
+    <!--Dolgozó Miskolc-->    
+
+    <Dolgozó Did='14' Tid='1'>
         <Név>Szabó Krisztina</Név>
-                                
-        
-        
         <SzületésiDátum>
-                                                
-            
-            
             <Év>1992</Év>
-                                                
-            
-            
             <Hónap>1</Hónap>
-                                                
-            
-            
             <Nap>25</Nap>
-                                            
-        
-        
         </SzületésiDátum>
-                                
-        
-        
         <Lakcím>
-                                                
-            
-            
             <Város>Miskolc</Város>
-                                                
-            
-            
             <Utca>Rózsa utca</Utca>
-                                                
-            
-            
             <Házszám>7</Házszám>
-                                            
-        
-        
         </Lakcím>
-                                
-        
-        
         <Telefonszám>06702229876</Telefonszám>
-                                
-        
-        
         <Email>Krisztina.Szabo@gmail.com</Email>
-                            
-    
-    
     </Dolgozó>
-                
-    
-    
-    <Dolgozó Did="13" Tid="1">
-                                
-        
-        
+
+    <Dolgozó Did='13' Tid='1'>
         <Név>Kovács András</Név>
-                                
-        
-        
         <SzületésiDátum>
-                                                
-            
-            
             <Év>1980</Év>
-                                                
-            
-            
             <Hónap>6</Hónap>
-                                                
-            
-            
             <Nap>12</Nap>
-                                            
-        
-        
         </SzületésiDátum>
-                                
-        
-        
         <Lakcím>
-                                                
-            
-            
             <Város>Miskolc</Város>
-                                                
-            
-            
             <Utca>Fenyő utca</Utca>
-                                                
-            
-            
             <Házszám>5</Házszám>
-                                            
-        
-        
         </Lakcím>
-                                
-        
-        
         <Telefonszám>06204447654</Telefonszám>
-                                
-        
-        
         <Email>Andras.Kovacs@gmail.com</Email>
-                            
-    
-    
     </Dolgozó>
-                
-    
-    
-    <!--Dolgozó Szeged-->
-             
 
-    
-    
-    
-    <Dolgozó Did="15" Tid="3">
-                                
-        
-        
+    <!--Dolgozó Szeged--> 
+
+    <Dolgozó Did='15' Tid='3'>
         <Név>Tóth Zoltán</Név>
-                                
-        
-        
         <SzületésiDátum>
-                                                
-            
-            
             <Év>1983</Év>
-                                                
-            
-            
             <Hónap>10</Hónap>
-                                                
-            
-            
             <Nap>18</Nap>
-                                            
-        
-        
         </SzületésiDátum>
-                                
-        
-        
         <Lakcím>
-                                                
-            
-            
             <Város>Szeged</Város>
-                                                
-            
-            
             <Utca>Körte utca</Utca>
-                                                
-            
-            
             <Házszám>2</Házszám>
-                                            
-        
-        
         </Lakcím>
-                                
-        
-        
         <Telefonszám>06307776543</Telefonszám>
-                                
-        
-        
         <Email>Zoltan.Toth@gmail.com</Email>
-                            
-    
-    
     </Dolgozó>
-                
-    
-    
-    <Dolgozó Did="16" Tid="3">
-                                
-        
-        
+
+    <Dolgozó Did='16' Tid='3'>
         <Név>Kiss Viktória</Név>
-                                
-        
-        
         <SzületésiDátum>
-                                                
-            
-            
             <Év>1990</Év>
-                                                
-            
-            
             <Hónap>5</Hónap>
-                                                
-            
-            
             <Nap>7</Nap>
-                                            
-        
-        
         </SzületésiDátum>
-                                
-        
-        
         <Lakcím>
-                                                
-            
-            
             <Város>Szeged</Város>
-                                                
-            
-            
             <Utca>Bor utca</Utca>
-                                                
-            
-            
             <Házszám>10</Házszám>
-                                            
-        
-        
         </Lakcím>
-                                
-        
-        
         <Telefonszám>06708881234</Telefonszám>
-                                
-        
-        
         <Email>Viktoria.Kiss@gmail.com</Email>
-                            
-    
-    
     </Dolgozó>
-                
-    
-    
+
     <!--Dolgozó Budapest-->
-                
-    
-    
-    <Dolgozó Did="17" Tid="2">
-                                
-        
-        
+
+    <Dolgozó Did='17' Tid='2'>
         <Név>Varga Éva</Név>
-                                
-        
-        
         <SzületésiDátum>
-                                                
-            
-            
             <Év>1988</Év>
-                                                
-            
-            
             <Hónap>3</Hónap>
-                                                
-            
-            
             <Nap>22</Nap>
-                                            
-        
-        
         </SzületésiDátum>
-                                
-        
-        
         <Lakcím>
-                                                
-            
-            
             <Város>Budapest</Város>
-                                                
-            
-            
             <Utca>Rózsa utca</Utca>
-                                                
-            
-            
             <Házszám>15</Házszám>
-                                            
-        
-        
         </Lakcím>
-                                
-        
-        
         <Telefonszám>06305557890</Telefonszám>
-                                
-        
-        
         <Email>Eva.Varga@gmail.com</Email>
-                            
-    
-    
     </Dolgozó>
-                
-    
-    
-    <Dolgozó Did="18" Tid="2">
-                                
-        
-        
+
+    <Dolgozó Did='18' Tid='2'>
         <Név>Nagy Gábor</Név>
-                                
-        
-        
         <SzületésiDátum>
-                                                
-            
-            
             <Év>1981</Év>
-                                                
-            
-            
             <Hónap>7</Hónap>
-                                                
-            
-            
             <Nap>10</Nap>
-                                            
-        
-        
         </SzületésiDátum>
-                                
-        
-        
         <Lakcím>
-                                                
-            
-            
             <Város>Budapest</Város>
-                                                
-            
-            
             <Utca>Körte utca</Utca>
-                                                
-            
-            
             <Házszám>8</Házszám>
-                                            
-        
-        
         </Lakcím>
-                                
-        
-        
         <Telefonszám>06204445678</Telefonszám>
-                                
-        
-        
         <Email>Gabor.Nagy@gmail.com</Email>
-                            
-    
-    
     </Dolgozó>
-                
-    
-    
+
     <!--Dolgozó Debrecen-->
-                
     
-    
-    
-    <Dolgozó Did="19" Tid="4">
-                                
-        
-        
+    <Dolgozó Did='19' Tid='4'>
         <Név>Kovács Márton</Név>
-                                
-        
-        
         <SzületésiDátum>
-                                                
-            
-            
             <Év>1982</Év>
-                                                
-            
-            
             <Hónap>9</Hónap>
-                                                
-            
-            
             <Nap>5</Nap>
-                                            
-        
-        
         </SzületésiDátum>
-                                
-        
-        
         <Lakcím>
-                                                
-            
-            
             <Város>Debrecen</Város>
-                                                
-            
-            
             <Utca>Páva utca</Utca>
-                                                
-            
-            
             <Házszám>7</Házszám>
-                                            
-        
-        
         </Lakcím>
-                                
-        
-        
         <Telefonszám>06306661122</Telefonszám>
-                                
-        
-        
         <Email>Marton.Kovacs@gmail.com</Email>
-                            
-    
-    
     </Dolgozó>
-                
-    
-    
-    <Dolgozó Did="20" Tid="4">
-                                
-        
-        
+
+    <Dolgozó Did='20' Tid='4'>
         <Név>Szabó Erika</Név>
-                                
-        
-        
         <SzületésiDátum>
-                                                
-            
-            
             <Év>1995</Év>
-                                                
-            
-            
             <Hónap>2</Hónap>
-                                                
-            
-            
             <Nap>14</Nap>
-                                            
-        
-        
         </SzületésiDátum>
-                                
-        
-        
         <Lakcím>
-                                                
-            
-            
             <Város>Debrecen</Város>
-                                                
-            
-            
             <Utca>Körte utca</Utca>
-                                                
-            
-            
             <Házszám>12</Házszám>
-                                            
-        
-        
         </Lakcím>
-                                
-        
-        
         <Telefonszám>06703334455</Telefonszám>
-                                
-        
-        
         <Email>Erika.Szabo@gmail.com</Email>
-                            
-    
-    
     </Dolgozó>
-                
-    
-    
+
     <!--Gyógyszerkiadás-->
-                
-    
-    
-    <Gyógyszerkiadás Kid="8751" Tid="1">
-                            
-        
-        
-        <Ár>3200</Ár>
-                            
-        
-        
-        <Forgalmazó>Gyógyszerfutár kft</Forgalmazó>
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='8751' Tid='1'>
+    <Ár>3200</Ár>
+    <Forgalmazó>Gyógyszerfutár kft</Forgalmazó>
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>3200</Készpénz>
-                                                
-            
-            
             <Bankártya>0</Bankártya>
-                                            
-        
-        
         </Fizetésimód>
-                            
-    
-    
     </Gyógyszerkiadás>
-                 
-    
-    
-    <Gyógyszerkiadás Kid="8322" Tid="2">
-                                
-        
-        
+
+     <Gyógyszerkiadás Kid='8322' Tid='2'>
         <Ár>2500</Ár>
-                                
-        
-        
         <Forgalmazó>Gyógyszerfutár kft</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>2000</Készpénz>
-                                                
-            
-            
             <Bankártya>500</Bankártya>
-                                               
-        
-        
-        </Fizetésimód>
-                            
-    
-    
+           </Fizetésimód>
     </Gyógyszerkiadás>
-                
-    
-    
-    <Gyógyszerkiadás Kid="2753" Tid="3">
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='2753' Tid='3'>
         <Ár>2800</Ár>
-                                
-        
-        
         <Forgalmazó>Gyógyszerfutár kft</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>0</Készpénz>
-                                                
-            
-            
             <Bankártya>2800</Bankártya>
-                                            
-        
-        
         </Fizetésimód>
-                            
-    
-    
     </Gyógyszerkiadás>
-                
-    
-    
-    <Gyógyszerkiadás Kid="6354" Tid="4">
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='6354' Tid='4'>
         <Ár>1800</Ár>
-                                
-        
-        
         <Forgalmazó>Gyógyszerfutár kft</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                    
-            
-            
-            <Készpénz>1800</Készpénz>
-                                                    
-            
-            
-            <Bankártya>0</Bankártya>
-                                                
-        
-        
-        </Fizetésimód>
-                            
-    
-    
+                <Készpénz>1800</Készpénz>
+                <Bankártya>0</Bankártya>
+            </Fizetésimód>
     </Gyógyszerkiadás>
-                
-    
-    
-    <Gyógyszerkiadás Kid="1755" Tid="5">
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='1755' Tid='5'>
         <Ár>3500</Ár>
-                                
-        
-        
         <Forgalmazó>GyógyszerExpress Kft</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>3000</Készpénz>
-                                                
-            
-            
             <Bankártya>500</Bankártya>
-                                            
-        
-        
         </Fizetésimód>
-                            
-    
-    
     </Gyógyszerkiadás>
-                
-    
-    
-    <Gyógyszerkiadás Kid="2756" Tid="2">
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='2756' Tid='2'>
         <Ár>4200</Ár>
-                                
-        
-        
         <Forgalmazó>MediCare Gyógyszerforgalmazás Zrt</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>4000</Készpénz>
-                                                
-            
-            
             <Bankártya>200</Bankártya>
-                                            
-        
-        
         </Fizetésimód>
-                            
-    
-    
     </Gyógyszerkiadás>
-                
-    
-    
-    <Gyógyszerkiadás Kid="1451" Tid="3">
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='1451' Tid='3'>
         <Ár>2900</Ár>
-                                
-        
-        
         <Forgalmazó>GyógyPatika Kft</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>2500</Készpénz>
-                                                
-            
-            
             <Bankártya>400</Bankártya>
-                                            
-        
-        
         </Fizetésimód>
-                            
-    
-    
     </Gyógyszerkiadás>
-                
-    
-    
-    <Gyógyszerkiadás Kid="3753" Tid="5">
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='3753' Tid='5'>
         <Ár>3800</Ár>
-                                
-        
-        
         <Forgalmazó>VitalGyógysz Kereskedelmi Bt</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>3500</Készpénz>
-                                                
-            
-            
             <Bankártya>300</Bankártya>
-                                            
-        
-        
         </Fizetésimód>
-                            
-    
-    
     </Gyógyszerkiadás>
-                
-    
-    
-    <Gyógyszerkiadás Kid="4444" Tid="1">
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='4444' Tid='1'>
         <Ár>2600</Ár>
-                                
-        
-        
         <Forgalmazó>GyógyPatent Kft</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>2000</Készpénz>
-                                                
-            
-            
             <Bankártya>600</Bankártya>
-                                            
-        
-        
         </Fizetésimód>
-                            
-    
-    
     </Gyógyszerkiadás>
-                
-    
-    
-    <Gyógyszerkiadás Kid="1234" Tid="2">
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='1234' Tid='2'>
         <Ár>3100</Ár>
-                                
-        
-        
         <Forgalmazó>MediBuy Gyógyszertár Kft</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>3100</Készpénz>
-                                                
-            
-            
             <Bankártya>0</Bankártya>
-                                            
-        
-        
         </Fizetésimód>
-                            
-    
-    
     </Gyógyszerkiadás>
-                
-    
-    
-    <Gyógyszerkiadás Kid="3333" Tid="2">
-                                
-        
-        
+
+    <Gyógyszerkiadás Kid='3333' Tid='2'>
         <Ár>2400</Ár>
-                                
-        
-        
         <Forgalmazó>Gyógyszertár 2000 Zrt</Forgalmazó>
-                                
-        
-        
         <Fizetésimód>
-                                                
-            
-            
             <Készpénz>2400</Készpénz>
-                                                
-            
-            
             <Bankártya>0</Bankártya>
-                                            
-        
-        
         </Fizetésimód>
-                            
-    
-    
     </Gyógyszerkiadás>
-                
-    
-    
+
     <!--Gyógyszer-->
-                
-    
-    
-    <Gyógyszer Gyid="12323">
-                                
-        
-        
+
+    <Gyógyszer Gyid='12323'>
         <Ár>2500</Ár>
-                                
-        
-        
         <Hatóanyag>Aszpirin</Hatóanyag>
-                                
-        
-        
         <Hatóanyag>Paracetamol</Hatóanyag>
-                                
-        
-        
         <Vényköteles>true</Vényköteles>
-                                
-        
-        
         <Kiszerelés>20 db</Kiszerelés>
-                                
-        
-        
         <Név>Aspirin Plus</Név>
-                            
-    
-    
     </Gyógyszer>
-                
-    
-    
-    <Gyógyszer Gyid="12324">
-                                
-        
-        
+
+    <Gyógyszer Gyid='12324'>
         <Ár>1800</Ár>
-                                
-        
-        
         <Hatóanyag>Loratadin</Hatóanyag>
-                                
-        
-        
         <Hatóanyag>Cetirizin</Hatóanyag>
-                                
-        
-        
         <Vényköteles>false</Vényköteles>
-                                
-        
-        
         <Kiszerelés>10 db</Kiszerelés>
-                                
-        
-        
         <Név>Cetirin</Név>
-                            
-    
-    
     </Gyógyszer>
-                
-    
-    
-    <Gyógyszer Gyid="12325">
-                                
-        
-        
+
+    <Gyógyszer Gyid='12325'>
         <Ár>3000</Ár>
-                                
-        
-        
         <Hatóanyag>Ranitidin</Hatóanyag>
-                                
-        
-        
         <Hatóanyag>Omeprazol</Hatóanyag>
-                                
-        
-        
         <Vényköteles>true</Vényköteles>
-                                
-        
-        
         <Kiszerelés>14 db</Kiszerelés>
-                                
-        
-        
         <Név>RanitOme</Név>
-                            
-    
-    
     </Gyógyszer>
-                
-    
-    
-    <Gyógyszer Gyid="12326">
-                                
-        
-        
+
+    <Gyógyszer Gyid='12326'>
         <Ár>1200</Ár>
-                                
-        
-        
         <Hatóanyag>Simetikon</Hatóanyag>
-                                
-        
-        
         <Hatóanyag>Metilpolisziloxán</Hatóanyag>
-                                
-        
-        
         <Vényköteles>false</Vényköteles>
-                                
-        
-        
         <Kiszerelés>25 db</Kiszerelés>
-                                
-        
-        
         <Név>Gas-X</Név>
-                            
-    
-    
     </Gyógyszer>
-                
-    
-    
-    <Gyógyszer Gyid="12327">
-                                
-        
-        
+
+    <Gyógyszer Gyid='12327'>
         <Ár>2700</Ár>
-                                
-        
-        
         <Hatóanyag>Diklofenák</Hatóanyag>
-                                
-        
-        
         <Hatóanyag>Naproxen</Hatóanyag>
-                                
-        
-        
         <Vényköteles>true</Vényköteles>
-                                
-        
-        
         <Kiszerelés>30 db</Kiszerelés>
-                                
-        
-        
         <Név>PainAway</Név>
-                            
-    
-    
     </Gyógyszer>
-                
-    
-    
-    <Gyógyszer Gyid="12328">
-                                
-        
-        
+
+    <Gyógyszer Gyid='12328'>
         <Ár>2000</Ár>
-                                
-        
-        
         <Hatóanyag>Levocetirizin</Hatóanyag>
-                                
-        
-        
         <Hatóanyag>Fexofenadin</Hatóanyag>
-                                
-        
-        
         <Vényköteles>false</Vényköteles>
-                                
-        
-        
         <Kiszerelés>15 db</Kiszerelés>
-                                
-        
-        
         <Név>LevoFex</Név>
-                            
-    
-    
     </Gyógyszer>
-                
-    
-    
-    <Gyógyszer Gyid="12329">
-                                
-        
-        
+
+    <Gyógyszer Gyid='12329'>
         <Ár>2800</Ár>
-                                
-        
-        
         <Hatóanyag>Enalapril</Hatóanyag>
-                                
-        
-        
         <Hatóanyag>Amlodipin</Hatóanyag>
-                                
-        
-        
         <Vényköteles>true</Vényköteles>
-                                
-        
-        
         <Kiszerelés>28 db</Kiszerelés>
-                                
-        
-        
         <Név>EnalAmlod</Név>
-                            
-    
-    
     </Gyógyszer>
-                
-    
-    
+
     <!--Beteg-->
-                
-    
-    
-    <Beteg Bid="53" Kid="1234">
-                                
-        
-        
+
+    <Beteg Bid='53' Kid='1234'>
         <Név>Kis Marika</Név>
-                                
-        
-        
         <Email>kicsikemarika@freemail.hu</Email>
-                                
-        
-        
         <Telefonszám>06201112244</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Debrecen</Város>
-                                                    
-            
-            
-            <Utca>Páva utca</Utca>
-                                                    
-            
-            
-            <Házszám>9</Házszám>
-                                            
-        
-        
+                <Város>Debrecen</Város>
+                <Utca>Páva utca</Utca>
+                <Házszám>9</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
-    
-    
-    <Beteg Bid="54" Kid="3333">
-                                
-        
-        
+
+    <Beteg Bid='54' Kid='3333'>
         <Név>Nagy József</Név>
-                                
-        
-        
         <Email>nagyjozsef@gmail.com</Email>
-                                
-        
-        
         <Telefonszám>06105556677</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Budapest</Város>
-                                                    
-            
-            
-            <Utca>Kossuth utca</Utca>
-                                                    
-            
-            
-            <Házszám>5</Házszám>
-                                            
-        
-        
+                <Város>Budapest</Város>
+                <Utca>Kossuth utca</Utca>
+                <Házszám>5</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
-    
-    
-    <Beteg Bid="55" Kid="4444">
-                                
-        
-        
+
+    <Beteg Bid='55' Kid='4444'>
         <Név>Kovács Zsuzsanna</Név>
-                                
-        
-        
         <Email>kovacszsuzsi@gmail.com</Email>
-                                
-        
-        
         <Telefonszám>06303334455</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Szeged</Város>
-                                                    
-            
-            
-            <Utca>Ady utca</Utca>
-                                                    
-            
-            
-            <Házszám>10</Házszám>
-                                            
-        
-        
+                <Város>Szeged</Város>
+                <Utca>Ady utca</Utca>
+                <Házszám>10</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
     
-    
-    
-    <Beteg Bid="56" Kid="3753">
-                                
-        
-        
+    <Beteg Bid='56' Kid='3753'>
         <Név>Németh Péter</Név>
-                                
-        
-        
         <Email>nemethp@gmail.com</Email>
-                                
-        
-        
         <Telefonszám>06207778899</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Pécs</Város>
-                                                    
-            
-            
-            <Utca>Fő utca</Utca>
-                                                    
-            
-            
-            <Házszám>12</Házszám>
-                                            
-        
-        
+                <Város>Pécs</Város>
+                <Utca>Fő utca</Utca>
+                <Házszám>12</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
     
-    
-    
-    <Beteg Bid="57" Kid="1451">
-                                
-        
-        
+    <Beteg Bid='57' Kid='1451'>
         <Név>Tóth Éva</Név>
-                                
-        
-        
         <Email>totheva@gmail.com</Email>
-                                
-        
-        
         <Telefonszám>06306667788</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Budapest</Város>
-                                                    
-            
-            
-            <Utca>Bajnok utca</Utca>
-                                                    
-            
-            
-            <Házszám>20</Házszám>
-                                            
-        
-        
+                <Város>Budapest</Város>
+                <Utca>Bajnok utca</Utca>
+                <Házszám>20</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
     
-    
-    
-    <Beteg Bid="58" Kid="2756">
-                                
-        
-        
+    <Beteg Bid='58' Kid='2756'>
         <Név>Kovács János</Név>
-                                
-        
-        
         <Email>kovacsjanos@yahoo.com</Email>
-                                
-        
-        
         <Telefonszám>06204445566</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Miskolc</Város>
-                                                    
-            
-            
-            <Utca>Rákóczi utca</Utca>
-                                                    
-            
-            
-            <Házszám>6</Házszám>
-                                            
-        
-        
+                <Város>Miskolc</Város>
+                <Utca>Rákóczi utca</Utca>
+                <Házszám>6</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
     
-    
-    
-    <Beteg Bid="59" Kid="8322">
-                                
-        
-        
+    <Beteg Bid='59' Kid='8322'>
         <Név>Varga Éva</Név>
-                                
-        
-        
         <Email>vargaeva@gmail.com</Email>
-                                
-        
-        
         <Telefonszám>06305556677</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Pécs</Város>
-                                                    
-            
-            
-            <Utca>Széchenyi utca</Utca>
-                                                    
-            
-            
-            <Házszám>15</Házszám>
-                                            
-        
-        
+                <Város>Pécs</Város>
+                <Utca>Széchenyi utca</Utca>
+                <Házszám>15</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
     
-    
-    
-    <Beteg Bid="60" Kid="8751">
-                                
-        
-        
+    <Beteg Bid='60' Kid='8751'>
         <Név>Kiss András</Név>
-                                
-        
-        
         <Email>kissandras@hotmail.com</Email>
-                                
-        
-        
         <Telefonszám>06109998877</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Szeged</Város>
-                                                    
-            
-            
-            <Utca>Petőfi utca</Utca>
-                                                    
-            
-            
-            <Házszám>4</Házszám>
-                                            
-        
-        
+                <Város>Szeged</Város>
+                <Utca>Petőfi utca</Utca>
+                <Házszám>4</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
     
-    
-    
-    <Beteg Bid="61" Kid="2753">
-                                
-        
-        
+    <Beteg Bid='61' Kid='2753'>
         <Név>Bakonyi Eszter</Név>
-                                
-        
-        
         <Email>bakonyieszter@gmail.com</Email>
-                                
-        
-        
         <Telefonszám>06201113366</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Debrecen</Város>
-                                                    
-            
-            
-            <Utca>Jókai utca</Utca>
-                                                    
-            
-            
-            <Házszám>8</Házszám>
-                                            
-        
-        
+                <Város>Debrecen</Város>
+                <Utca>Jókai utca</Utca>
+                <Házszám>8</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
     
-    
-    
-    <Beteg Bid="62" Kid="6354">
-                                
-        
-        
+    <Beteg Bid='62' Kid='6354'>
         <Név>Király Gábor</Név>
-                                
-        
-        
         <Email>kiralygabor@gmail.com</Email>
-                                
-        
-        
         <Telefonszám>06306667788</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Budapest</Város>
-                                                    
-            
-            
-            <Utca>Arany János utca</Utca>
-                                                    
-            
-            
-            <Házszám>11</Házszám>
-                                            
-        
-        
+                <Város>Budapest</Város>
+                <Utca>Arany János utca</Utca>
+                <Házszám>11</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
     
-    
-    
-    <Beteg Bid="63" Kid="1755">
-                                
-        
-        
+    <Beteg Bid='63' Kid='1755'>
         <Név>Nagy Mária</Név>
-                                
-        
-        
         <Email>magdika@hotmail.com</Email>
-                                
-        
-        
         <Telefonszám>06105554433</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Miskolc</Város>
-                                                    
-            
-            
-            <Utca>Széchenyi utca</Utca>
-                                                    
-            
-            
-            <Házszám>18</Házszám>
-                                            
-        
-        
+                <Város>Miskolc</Város>
+                <Utca>Széchenyi utca</Utca>
+                <Házszám>18</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
     
-    
-    
-    <Beteg Bid="64" Kid="1736">
-                                
-        
-        
+    <Beteg Bid='64' Kid='1736'>
         <Név>Kertész József</Név>
-                                
-        
-        
         <Email>kerteszjozsi@gmail.com</Email>
-                                
-        
-        
         <Telefonszám>06307778899</Telefonszám>
-                                
-        
-        
         <Lakcím>
-                                                    
-            
-            
-            <Város>Pécs</Város>
-                                                    
-            
-            
-            <Utca>Arany János utca</Utca>
-                                                    
-            
-            
-            <Házszám>7</Házszám>
-                                            
-        
-        
+                <Város>Pécs</Város>
+                <Utca>Arany János utca</Utca>
+                <Házszám>7</Házszám>
         </Lakcím>
-                            
-    
-    
     </Beteg>
-                
-    
-    
+
     <!--Kívánt termék kapcsolat-->
-                
-    
-    
-    <kívánttermék Gyid="123" Kid="1736">
-                                
-        
-        
+
+    <kívánttermék Gyid='123' Kid='1736'>
         <Árukészlet>32</Árukészlet>
-                                
-        
-        
         <Beérkezés>2023.09.12</Beérkezés>
-                            
-    
-    
     </kívánttermék>
-                
-    
-    
-    <kívánttermék Gyid="124" Kid="1755">
-                                
-        
-        
+
+    <kívánttermék Gyid='124' Kid='1755'>
         <Árukészlet>28</Árukészlet>
-                                
-        
-        
         <Beérkezés>2023.09.18</Beérkezés>
-                            
-    
-    
     </kívánttermék>
-                
-    
-    
-    <kívánttermék Gyid="125" Kid="6354">
-                                
-        
-        
+
+    <kívánttermék Gyid='125' Kid='6354'>
         <Árukészlet>30</Árukészlet>
-                                
-        
-        
         <Beérkezés>2023.09.20</Beérkezés>
-                            
-    
-    
-    </kívánttermék>
-               
+    </kívánttermék>   
 
-    
-    
-    
-    <kívánttermék Gyid="126" Kid="2756">
-                                
-        
-        
+    <kívánttermék Gyid='126' Kid='2756'>
         <Árukészlet>25</Árukészlet>
-                                
-        
-        
         <Beérkezés>2023.09.25</Beérkezés>
-                            
-    
-    
     </kívánttermék>
-                
-    
-    
-    <kívánttermék Gyid="127" Kid="6322">
-                                
-        
-        
+
+    <kívánttermék Gyid='127' Kid='6322'>
         <Árukészlet>20</Árukészlet>
-                                
-        
-        
         <Beérkezés>2023.09.28</Beérkezés>
-                            
-    
-    
-    </kívánttermék>
-               
+    </kívánttermék>   
 
-    
-    
-    
-    <kívánttermék Gyid="128" Kid="8751">
-                                
-        
-        
+    <kívánttermék Gyid='128' Kid='8751'>
         <Árukészlet>18</Árukészlet>
-                                
-        
-        
         <Beérkezés>2023.09.30</Beérkezés>
-                            
-    
-    
     </kívánttermék>
-                
-
-
-
+    
 </Gyógyszerárusitás_CVVJZ4>

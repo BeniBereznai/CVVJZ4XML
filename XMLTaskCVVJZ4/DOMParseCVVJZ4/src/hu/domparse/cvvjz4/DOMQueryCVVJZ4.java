@@ -58,7 +58,7 @@ public class DOMQueryCVVJZ4 {
 	            String forgalmazo = forgalmazoNode.getTextContent();
 	            System.out.println("Forgalmazó: " + forgalmazo);
 
-	            System.out.println("------------------------------------------");
+	            System.out.println("+++++++++++++++++++++++++++++");
 	        }
 	    }
 	}
@@ -93,7 +93,7 @@ public class DOMQueryCVVJZ4 {
 	                System.out.println("Vényköteles: " + venykoteles);
 	                System.out.println("Kiszerelés: " + kiszerelés);
 	                System.out.println("Név: " + nev);
-	                System.out.println("------------------------------------------");
+	                System.out.println("+++++++++++++++++++++++++++++");
 	            }
 	        }
 	    }
@@ -137,7 +137,7 @@ public class DOMQueryCVVJZ4 {
 	                // Kiírjuk az adatokat
 	                System.out.println("Dolgozó neve: " + nev);
 	                System.out.println("Születési dátum: " + szuletesiDatum);
-	                System.out.println("------------------------------------------");
+	                System.out.println("+++++++++++++++++++++++++++++");
 	            }
 	        }
 	    }
@@ -191,7 +191,7 @@ public class DOMQueryCVVJZ4 {
 	                        System.out.println("Gyógyszertár kódja: " + gyogyszerkiadasElem.getAttribute("Tid"));
 	                        System.out.println("Ár: " + gyogyszerkiadasElem.getElementsByTagName("Ár").item(0).getTextContent());
 	                        System.out.println("Forgalmazó: " + gyogyszerkiadasElem.getElementsByTagName("Forgalmazó").item(0).getTextContent());
-	                        System.out.println("------------------------------------------");
+	                        System.out.println("+++++++++++++++++++++++++++++");
 	                    }
 	                }
 	            }
@@ -239,7 +239,7 @@ public class DOMQueryCVVJZ4 {
 	            System.out.println("Telefonszám: " + telefonszam);
 	            System.out.println("Email: " + email);
 
-	            System.out.println("------------------------------------------");
+	            System.out.println("+++++++++++++++++++++++++++++");
 	        }
 	    }
 	}

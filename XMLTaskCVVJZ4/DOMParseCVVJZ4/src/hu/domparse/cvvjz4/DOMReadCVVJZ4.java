@@ -68,7 +68,7 @@ public class DOMReadCVVJZ4 {
 		            System.out.println("Utca: " + utca);
 		            System.out.println("Házszám: " + hazszam);
 
-		            System.out.println("-----------------------------");
+		            System.out.println("++++++++++++++++++");
 		        }
 		    }
 		}
@@ -116,7 +116,7 @@ public class DOMReadCVVJZ4 {
 		            System.out.println("Házszám: " + hazszam);
 		            System.out.println("Telefonszám: " + telefonszam);
 		            System.out.println("Email: " + email);
-		            System.out.println("-----------------------------");
+		            System.out.println("++++++++++++++++++");
 		        }
 		    }
 		}
@@ -151,7 +151,7 @@ public class DOMReadCVVJZ4 {
 		            System.out.println("Forgalmazó: " + forgalmazo);
 		            System.out.println("Készpénz: " + keszpenz);
 		            System.out.println("Bankártya: " + bankkartya);
-		            System.out.println("-----------------------------");
+		            System.out.println("++++++++++++++++++");
 		        }
 		    }
 		}
@@ -202,7 +202,7 @@ public class DOMReadCVVJZ4 {
 		                }
 		            }
 
-		            System.out.println("-----------------------------");
+		            System.out.println("++++++++++++++++++");
 		        }
 		    }
 		}
@@ -243,7 +243,7 @@ public class DOMReadCVVJZ4 {
 		            System.out.println("Utca: " + utca);
 		            System.out.println("Házszám: " + hazszam);
 
-		            System.out.println("-----------------------------");
+		            System.out.println("++++++++++++++++++");
 		        }
 		    }
 		}
@@ -272,7 +272,7 @@ public class DOMReadCVVJZ4 {
 		            System.out.println("Árukészlet: " + arukeszlet);
 		            System.out.println("Beérkezés: " + beerkezes);
 
-		            System.out.println("-----------------------------");
+		            System.out.println("++++++++++++++++++");
 		        }
 		    }
 		}
