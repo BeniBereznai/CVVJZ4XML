@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<body>
+    <h1>Bereznai Benjamin Kurzusfelvétel – 2023/24. I. félév.</h1>
+	<table>			
+        <tr>
+            <th>Tárgykód</th>
+            <th>Tárgynév</th>
+            <th>Kredit</th>
+            <th>Helyszín</th>
+            <th>Időpont</th>
+            <th>Oktató</th>
+            <th>Óraadó</th>
+            <th>Jóváhagyás</th>
+            <th>Nyelv</th>
+        </tr> 
+        <tr>
+            <td>GEIAL332-B</td>
+            <td>Adatkezelés XML-ben</td>
+            <td>5</td>
+            <td>XXXII.</td>
+            <td>Kedd 12:00-14:00</td>
+            <td>Dr. Bednarik László</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>GEIAL331-B</td>
+            <td>Web technológiák 1</td>
+            <td>5</td>
+            <td>A5/305.</td>
+            <td>Hétfő 14:00-16:00</td>
+            <td>Agárdi Anita</td>
+            <td></td>
+            <td>igen</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>GEFIT012-B</td>
+            <td>Fizika II.</td>
+            <td>4</td>
+            <td>A1/12.</td>
+            <td>Hétfő 8:00-12:00</td>
+            <td>Dr. Pszota Gábor</td>
+            <td>Nagy Ádám</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>GEVEE050-B</td>
+            <td>Elektrotechnika-elektronika</td>
+            <td>5</td>
+            <td>A1/316.</td>
+            <td>Kedd 8:00-10:00</td>
+            <td>Szabó Norbert István</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr> 
+    </table>
+</body>
+</html>

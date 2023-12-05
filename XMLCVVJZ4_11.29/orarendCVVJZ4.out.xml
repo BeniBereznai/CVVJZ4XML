@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<body>
+
+    <h1>Bereznai Benjamin 2023/24. 1 félév.</h1>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Tipus</th>
+            <th>Targy</th>
+            <th>Nap</th>
+            <th>Idopont</th>
+            <th>Helyszin</th>
+            <th>Oktato</th>
+            <th>Szak</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>előadás</td>
+            <td>Szoftvertesztelés</td>
+            <td>Hétfő</td>
+            <td>10 - 12</td>
+            <td>In/103</td>
+            <td>Hornyák Olivér</td>
+            <td>Mérnökinformatika</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>gyakorlat</td>
+            <td>Szoftvertesztelés</td>
+            <td>Hétfő</td>
+            <td>12 - 14</td>
+            <td>In/103</td>
+            <td>Hornyák Olivér</td>
+            <td>Mérnökinformatika</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>előadás</td>
+            <td>WEB technológiák</td>
+            <td>Hétfő</td>
+            <td>14 - 16</td>
+            <td>XXX A1 III. em. 305</td>
+            <td>Agárdi Anita</td>
+            <td>Mérnökinformatika</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>gyakorlat</td>
+            <td>WEB technológiák</td>
+            <td>Hétfő</td>
+            <td>16 - 18</td>
+            <td>In/103</td>
+            <td>Agárdi Anita</td>
+            <td>Mérnökinformatika</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>előadás</td>
+            <td>Mesterséges intelligencia</td>
+            <td>Kedd</td>
+            <td>10 - 12</td>
+            <td>XXXII A1 magasfsz</td>
+            <td>Tamás Judit</td>
+            <td>Mérnökinformatika</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>előadás</td>
+            <td>Adatkezelés XML-ben</td>
+            <td>Kedd</td>
+            <td>12 - 14</td>
+            <td>XXXII A1 magasfsz</td>
+            <td>Dr. Bednarik László</td>
+            <td>Mérnökinformatika</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>gyakorlat</td>
+            <td>Adatkezelés XML-ben</td>
+            <td>Szerda</td>
+            <td>12 - 14</td>
+            <td>In/101</td>
+            <td>Dr. Bednarik László</td>
+            <td>Mérnökinformatika</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>gyakorlat</td>
+            <td>Mesterséges intelligencia</td>
+            <td>Csütörtök</td>
+            <td>10 - 12</td>
+            <td>I. A2 fsz.</td>
+            <td>Fazekas Levente</td>
+            <td>Mérnökinformatika</td>
+        </tr>
+    </table>
+</body>
+</html>
