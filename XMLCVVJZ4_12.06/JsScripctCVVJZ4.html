@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>CVVJZ4 Orarend</title>
+    <style>
+        .orarend-item {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="orarend-container"></div>
+
+    <script>
+        var jsonFile = 'orarendCVVJZ4.json';
+
+        fetch(jsonFile)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                var orarendData = data;
+
+                //Az órarend elemeinek listája.
+                var orarendHtml = '<ul>';
+                orarendData.CVVJZ4_orarend.ora.forEach(ora => {
+                    orarendHtml += '<li class="orarend-item">';
+                    orarendHtml += '<strong>Típus:</strong> ' + ora['@tipus'] + '<br>';
+                    orarendHtml += '<strong>Tárgy:</strong> ' + ora.targy + '<br>';
+                    orarendHtml += '<strong>Oktató:</strong> ' + ora.oktato + '<br>';
+                    orarendHtml += '<strong>Szak:</strong> ' + ora.szak + '<br>';
+                    orarendHtml += '<strong>Időpont:</strong> ' + ora.idopont.nap + ' ' + ora.idopont.tol + '-' + ora.idopont.ig + '<br>';
+                    orarendHtml += '<strong>Helyszín:</strong> ' + ora.helyszin + '<br>';
+                    orarendHtml += '<strong>Azonosító:</strong> ' + ora['@id'] + '<br>';
+                    orarendHtml += '</li>';
+                });
+                orarendHtml += '</ul>';
+
+                //Megjelenítés az oldalon.
+                document.getElementById('orarend-container').innerHTML = orarendHtml;
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+    </script>
+</body>
+</html>
