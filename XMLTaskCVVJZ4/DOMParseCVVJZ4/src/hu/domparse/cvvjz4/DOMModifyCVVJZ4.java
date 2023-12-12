@@ -56,7 +56,7 @@ public class DOMModifyCVVJZ4 {
 
     private static void printDocument(Element element, String indent) {
         // Print the current element and its children
-        System.out.println(indent + element.getTagName() + ": ");
+        System.out.println(indent + "<" + element.getTagName() + ">");
 
         NodeList children = element.getChildNodes();
         for (int i = 0; i < children.getLength(); i++) {
@@ -66,11 +66,15 @@ public class DOMModifyCVVJZ4 {
             } else if (child.getNodeType() == Node.TEXT_NODE) {
                 String text = child.getTextContent().trim();
                 if (!text.isEmpty()) {
-                    System.out.println(indent + "  " + text);
+                    System.out.println(indent + "    " + text);
                 }
             }
         }
+
+        System.out.println(indent + "</" + element.getTagName() + ">");
     }
+
+
 
     private static void modifyGyogyszertar(Document doc, String targetVaros, String newHazszam) {
         NodeList gyogyszertarList = doc.getElementsByTagName("Gyógyszertár");

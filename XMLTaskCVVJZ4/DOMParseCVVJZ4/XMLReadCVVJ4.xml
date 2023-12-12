@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Gyógyszerárusitás_CVVJZ4 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaCVVJZ4.xsd">
+    <!--Gyógyszertár-->
     <Gyógyszertár GYID="1">
         <Név>Alma Gyógyszertár</Név>
         <Email>alma.gyogyszertar@gmail.com</Email>
@@ -50,56 +51,162 @@
             <Házszám>12</Házszám>
         </Cím>
     </Gyógyszertár>
-    <Dolgozó DID="11" GYID="5">
+    <!--Dolgozó Pécs-->
+    <Dolgozó Did="11" Tid="5">
         <Név>Kis János</Név>
-        <Cím>
+        <SzületésiDátum>
+            <Év>1977</Év>
+            <Hónap>8</Hónap>
+            <Nap>29</Nap>
+        </SzületésiDátum>
+        <Lakcím>
             <Város>Pécs</Város>
             <Utca>Mókus utca</Utca>
             <Házszám>3</Házszám>
-        </Cím>
+        </Lakcím>
         <Telefonszám>06703331322</Telefonszám>
         <Email>Janika.Kis@gmail.com</Email>
     </Dolgozó>
-    <Dolgozó DID="12" GYID="5">
+    <Dolgozó Did="12" Tid="5">
         <Név>Nagy Éva</Név>
-        <Cím>
+        <SzületésiDátum>
+            <Év>1985</Év>
+            <Hónap>4</Hónap>
+            <Nap>15</Nap>
+        </SzületésiDátum>
+        <Lakcím>
             <Város>Pécs</Város>
-            <Utca>Mókus utca</Utca>
-            <Házszám>3</Házszám>
-        </Cím>
-        <Telefonszám>06707654321</Telefonszám>
-        <Email>EvaNagy@gmail.com</Email>
-    </Dolgozó>
-    <Dolgozó DID="13" GYID="2">
-        <Név>Kiss Gábor</Név>
-        <Cím>
-            <Város>Budapest</Város>
-            <Utca>Kossuth Lajos utca</Utca>
-            <Házszám>10</Házszám>
-        </Cím>
-        <Telefonszám>06304567890</Telefonszám>
-        <Email>gaborkiss@gmail.com</Email>
-    </Dolgozó>
-    <Dolgozó DID="14" GYID="3">
-        <Név>Nagy Krisztina</Név>
-        <Cím>
-            <Város>Szeged</Város>
-            <Utca>Aradi vértanúk tere</Utca>
-            <Házszám>5</Házszám>
-        </Cím>
-        <Telefonszám>06205551111</Telefonszám>
-        <Email>knagy@gmail.com</Email>
-    </Dolgozó>
-    <Dolgozó DID="15" GYID="4">
-        <Név>Papp István</Név>
-        <Cím>
-            <Város>Debrecen</Város>
-            <Utca>Piac utca</Utca>
+            <Utca>Szép utca</Utca>
             <Házszám>8</Házszám>
-        </Cím>
-        <Telefonszám>06501234567</Telefonszám>
-        <Email>istvan.papp@gmail.com</Email>
+        </Lakcím>
+        <Telefonszám>06305559876</Telefonszám>
+        <Email>Eva.Nagy@gmail.com</Email>
     </Dolgozó>
+    <!--Dolgozó Miskolc-->
+    <Dolgozó Did="14" Tid="1">
+        <Név>Szabó Krisztina</Név>
+        <SzületésiDátum>
+            <Év>1992</Év>
+            <Hónap>1</Hónap>
+            <Nap>25</Nap>
+        </SzületésiDátum>
+        <Lakcím>
+            <Város>Miskolc</Város>
+            <Utca>Rózsa utca</Utca>
+            <Házszám>7</Házszám>
+        </Lakcím>
+        <Telefonszám>06702229876</Telefonszám>
+        <Email>Krisztina.Szabo@gmail.com</Email>
+    </Dolgozó>
+    <Dolgozó Did="13" Tid="1">
+        <Név>Kovács András</Név>
+        <SzületésiDátum>
+            <Év>1980</Év>
+            <Hónap>6</Hónap>
+            <Nap>12</Nap>
+        </SzületésiDátum>
+        <Lakcím>
+            <Város>Miskolc</Város>
+            <Utca>Fenyő utca</Utca>
+            <Házszám>5</Házszám>
+        </Lakcím>
+        <Telefonszám>06204447654</Telefonszám>
+        <Email>Andras.Kovacs@gmail.com</Email>
+    </Dolgozó>
+    <!--Dolgozó Szeged-->
+    <Dolgozó Did="15" Tid="3">
+        <Név>Tóth Zoltán</Név>
+        <SzületésiDátum>
+            <Év>1983</Év>
+            <Hónap>10</Hónap>
+            <Nap>18</Nap>
+        </SzületésiDátum>
+        <Lakcím>
+            <Város>Szeged</Város>
+            <Utca>Körte utca</Utca>
+            <Házszám>2</Házszám>
+        </Lakcím>
+        <Telefonszám>06307776543</Telefonszám>
+        <Email>Zoltan.Toth@gmail.com</Email>
+    </Dolgozó>
+    <Dolgozó Did="16" Tid="3">
+        <Név>Kiss Viktória</Név>
+        <SzületésiDátum>
+            <Év>1990</Év>
+            <Hónap>5</Hónap>
+            <Nap>7</Nap>
+        </SzületésiDátum>
+        <Lakcím>
+            <Város>Szeged</Város>
+            <Utca>Bor utca</Utca>
+            <Házszám>10</Házszám>
+        </Lakcím>
+        <Telefonszám>06708881234</Telefonszám>
+        <Email>Viktoria.Kiss@gmail.com</Email>
+    </Dolgozó>
+    <!--Dolgozó Budapest-->
+    <Dolgozó Did="17" Tid="2">
+        <Név>Varga Éva</Név>
+        <SzületésiDátum>
+            <Év>1988</Év>
+            <Hónap>3</Hónap>
+            <Nap>22</Nap>
+        </SzületésiDátum>
+        <Lakcím>
+            <Város>Budapest</Város>
+            <Utca>Rózsa utca</Utca>
+            <Házszám>15</Házszám>
+        </Lakcím>
+        <Telefonszám>06305557890</Telefonszám>
+        <Email>Eva.Varga@gmail.com</Email>
+    </Dolgozó>
+    <Dolgozó Did="18" Tid="2">
+        <Név>Nagy Gábor</Név>
+        <SzületésiDátum>
+            <Év>1981</Év>
+            <Hónap>7</Hónap>
+            <Nap>10</Nap>
+        </SzületésiDátum>
+        <Lakcím>
+            <Város>Budapest</Város>
+            <Utca>Körte utca</Utca>
+            <Házszám>8</Házszám>
+        </Lakcím>
+        <Telefonszám>06204445678</Telefonszám>
+        <Email>Gabor.Nagy@gmail.com</Email>
+    </Dolgozó>
+    <!--Dolgozó Debrecen-->
+    <Dolgozó Did="19" Tid="4">
+        <Név>Kovács Márton</Név>
+        <SzületésiDátum>
+            <Év>1982</Év>
+            <Hónap>9</Hónap>
+            <Nap>5</Nap>
+        </SzületésiDátum>
+        <Lakcím>
+            <Város>Debrecen</Város>
+            <Utca>Páva utca</Utca>
+            <Házszám>7</Házszám>
+        </Lakcím>
+        <Telefonszám>06306661122</Telefonszám>
+        <Email>Marton.Kovacs@gmail.com</Email>
+    </Dolgozó>
+    <Dolgozó Did="20" Tid="4">
+        <Név>Szabó Erika</Név>
+        <SzületésiDátum>
+            <Év>1995</Év>
+            <Hónap>2</Hónap>
+            <Nap>14</Nap>
+        </SzületésiDátum>
+        <Lakcím>
+            <Város>Debrecen</Város>
+            <Utca>Körte utca</Utca>
+            <Házszám>12</Házszám>
+        </Lakcím>
+        <Telefonszám>06703334455</Telefonszám>
+        <Email>Erika.Szabo@gmail.com</Email>
+    </Dolgozó>
+    <!--Gyógyszerkiadás-->
     <Gyógyszerkiadás Kid="8751" Tid="1">
         <Ár>3200</Ár>
         <Forgalmazó>Gyógyszerfutár kft</Forgalmazó>
@@ -188,13 +295,11 @@
             <Bankártya>0</Bankártya>
         </Fizetésimód>
     </Gyógyszerkiadás>
+    <!--Gyógyszer-->
     <Gyógyszer Gyid="12323">
         <Ár>2500</Ár>
         <Hatóanyag>Aszpirin</Hatóanyag>
         <Hatóanyag>Paracetamol</Hatóanyag>
-        <Hatóanyag>true</Hatóanyag>
-        <Hatóanyag>20 db</Hatóanyag>
-        <Hatóanyag>Aspirin Plus</Hatóanyag>
         <Vényköteles>true</Vényköteles>
         <Kiszerelés>20 db</Kiszerelés>
         <Név>Aspirin Plus</Név>
@@ -203,9 +308,6 @@
         <Ár>1800</Ár>
         <Hatóanyag>Loratadin</Hatóanyag>
         <Hatóanyag>Cetirizin</Hatóanyag>
-        <Hatóanyag>false</Hatóanyag>
-        <Hatóanyag>10 db</Hatóanyag>
-        <Hatóanyag>Cetirin</Hatóanyag>
         <Vényköteles>false</Vényköteles>
         <Kiszerelés>10 db</Kiszerelés>
         <Név>Cetirin</Név>
@@ -214,9 +316,6 @@
         <Ár>3000</Ár>
         <Hatóanyag>Ranitidin</Hatóanyag>
         <Hatóanyag>Omeprazol</Hatóanyag>
-        <Hatóanyag>true</Hatóanyag>
-        <Hatóanyag>14 db</Hatóanyag>
-        <Hatóanyag>RanitOme</Hatóanyag>
         <Vényköteles>true</Vényköteles>
         <Kiszerelés>14 db</Kiszerelés>
         <Név>RanitOme</Név>
@@ -225,9 +324,6 @@
         <Ár>1200</Ár>
         <Hatóanyag>Simetikon</Hatóanyag>
         <Hatóanyag>Metilpolisziloxán</Hatóanyag>
-        <Hatóanyag>false</Hatóanyag>
-        <Hatóanyag>25 db</Hatóanyag>
-        <Hatóanyag>Gas-X</Hatóanyag>
         <Vényköteles>false</Vényköteles>
         <Kiszerelés>25 db</Kiszerelés>
         <Név>Gas-X</Név>
@@ -236,9 +332,6 @@
         <Ár>2700</Ár>
         <Hatóanyag>Diklofenák</Hatóanyag>
         <Hatóanyag>Naproxen</Hatóanyag>
-        <Hatóanyag>true</Hatóanyag>
-        <Hatóanyag>30 db</Hatóanyag>
-        <Hatóanyag>PainAway</Hatóanyag>
         <Vényköteles>true</Vényköteles>
         <Kiszerelés>30 db</Kiszerelés>
         <Név>PainAway</Név>
@@ -247,9 +340,6 @@
         <Ár>2000</Ár>
         <Hatóanyag>Levocetirizin</Hatóanyag>
         <Hatóanyag>Fexofenadin</Hatóanyag>
-        <Hatóanyag>false</Hatóanyag>
-        <Hatóanyag>15 db</Hatóanyag>
-        <Hatóanyag>LevoFex</Hatóanyag>
         <Vényköteles>false</Vényköteles>
         <Kiszerelés>15 db</Kiszerelés>
         <Név>LevoFex</Név>
@@ -258,13 +348,11 @@
         <Ár>2800</Ár>
         <Hatóanyag>Enalapril</Hatóanyag>
         <Hatóanyag>Amlodipin</Hatóanyag>
-        <Hatóanyag>true</Hatóanyag>
-        <Hatóanyag>28 db</Hatóanyag>
-        <Hatóanyag>EnalAmlod</Hatóanyag>
         <Vényköteles>true</Vényköteles>
         <Kiszerelés>28 db</Kiszerelés>
         <Név>EnalAmlod</Név>
     </Gyógyszer>
+    <!--Beteg-->
     <Beteg Bid="53" Kid="1234">
         <Név>Kis Marika</Név>
         <Email>kicsikemarika@freemail.hu</Email>
@@ -385,4 +473,29 @@
             <Házszám>7</Házszám>
         </Lakcím>
     </Beteg>
+    <!--Kívánt termék kapcsolat-->
+    <kívánttermék Gyid="123" Kid="1736">
+        <Árukészlet>32</Árukészlet>
+        <Beérkezés>2023.09.12</Beérkezés>
+    </kívánttermék>
+    <kívánttermék Gyid="124" Kid="1755">
+        <Árukészlet>28</Árukészlet>
+        <Beérkezés>2023.09.18</Beérkezés>
+    </kívánttermék>
+    <kívánttermék Gyid="125" Kid="6354">
+        <Árukészlet>30</Árukészlet>
+        <Beérkezés>2023.09.20</Beérkezés>
+    </kívánttermék>
+    <kívánttermék Gyid="126" Kid="2756">
+        <Árukészlet>25</Árukészlet>
+        <Beérkezés>2023.09.25</Beérkezés>
+    </kívánttermék>
+    <kívánttermék Gyid="127" Kid="6322">
+        <Árukészlet>20</Árukészlet>
+        <Beérkezés>2023.09.28</Beérkezés>
+    </kívánttermék>
+    <kívánttermék Gyid="128" Kid="8751">
+        <Árukészlet>18</Árukészlet>
+        <Beérkezés>2023.09.30</Beérkezés>
+    </kívánttermék>
 </Gyógyszerárusitás_CVVJZ4>
