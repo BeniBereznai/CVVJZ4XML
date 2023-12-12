@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CVVJZ4_orarend>
+    <ora id="1" típus="elmelet">
+        <idopont>
+            <ora>fizika</ora>
+            <nap>hétfő</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>A1/306</helyszin>
+        <oktato>Dr. Pszota Gabor</oktato>
+        <szak>informatika</szak>
+    </ora>
+    <ora id="2" típus="elmelet+gyakorlat">
+        <idopont>
+            <ora>Ssoftwaretest</ora>
+            <nap>hétfő</nap>
+            <tol>10</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>iit. 103</helyszin>
+        <oktato>Dr. Hornyak Oliver</oktato>
+        <szak>informatika</szak>
+    </ora>
+    <ora id="3" típus="elmelet+gyakorlat">
+        <idopont>
+            <ora>Webtechnológiák</ora>
+            <nap>hétfő</nap>
+            <tol>14</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>A1/312</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Informatika</szak>
+    </ora>
+      <ora id="4" típus="gyakorlat">
+        <idopont>
+            <ora>Elektronika</ora>
+            <nap>kedd</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>A1/312</helyszin>
+        <oktato>Szabo Norbert</oktato>
+        <szak>Informatika</szak>
+    </ora>
+      <ora id="5" típus="Elmelet">
+        <idopont>
+            <ora>XML</ora>
+            <nap>kedd</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>A1/XXXII</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Informatika</szak>
+    </ora>
+      <ora id="6" típus="elmelet+gyakorlat">
+        <idopont>
+            <ora>Webes alkalmazasok</ora>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>teams</helyszin>
+        <oktato>Viktor</oktato>
+        <szak>Informatika</szak>
+    </ora>
+      <ora id="7" típus="gyakorlat">
+        <idopont>
+            <ora>XML</ora>
+            <nap>szerda</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>iit. 103</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Informatika</szak>
+    </ora>
+      <ora id="8" típus="gyakorlat">
+        <idopont>
+            <ora>Fizika</ora>
+            <nap>Szerda</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>A1/316</helyszin>
+        <oktato>Nagy Ádám</oktato>
+        <szak>Informatika</szak>
+    </ora>
+</CVVJZ4_orarend> 
