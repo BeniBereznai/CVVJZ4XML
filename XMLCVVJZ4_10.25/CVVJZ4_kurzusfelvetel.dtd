@@ -1,0 +1,19 @@
+<!ELEMENT DLWGQZ_kurzusfelvetel (hallgato,kurzusok)>
+<!ATTLIST DLWGQZ_kurzusfelvetel tanev CDATA #REQUIRED>
+<!ATTLIST DLWGQZ_kurzusfelvetel egyetem NMTOKEN #REQUIRED>
+    <!ELEMENT hallgato (nev,szulev,szak+)>
+<!ATTLIST hallgato id NMTOKEN #REQUIRED>
+    <!ELEMENT nev (#PCDATA)>
+    <!ELEMENT szulev (#PCDATA)>
+    <!ELEMENT szak (#PCDATA)>
+<!ATTLIST szak evf NMTOKEN #REQUIRED>
+    <!ELEMENT kurzusok (kurzus*)>
+    <!ELEMENT kurzus (kurzusnev,kredit,hely,idopont+,oktato?,oraado?)>
+<!ATTLIST kurzus id NMTOKEN #REQUIRED>
+<!ATTLIST kurzus jovahagyas NMTOKEN #IMPLIED>
+    <!ELEMENT kurzusnev (#PCDATA)>
+    <!ELEMENT kredit (#PCDATA)>
+    <!ELEMENT hely (#PCDATA)>
+    <!ELEMENT idopont (#PCDATA)>
+    <!ELEMENT oktato (#PCDATA)>
+    <!ELEMENT oraado (#PCDATA)>

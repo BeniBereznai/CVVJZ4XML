@@ -1,0 +1,57 @@
+<Kurzusfelvetel xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+                    xs:noNamespaceSchemaLocation="CVVJZ4_kurzus.xsd">
+        <Kurzusfelvetel tanév="2023/2024" egyetem="ME">
+
+            <hallgato>
+                <nev>Bereznai Benjamin</nev>
+                <szuletett>2002-10-18</szuletett>
+                <szak>Mérnök Informatika</szak>
+            </hallgato>
+
+            
+            <kurzusok id="integer" jovahagyas="igen">
+                    <kurzus>
+                        <kurzusnev>XML</kurzusnev>
+                        <kredit>5</kredit>
+                        <idopont>Szerda 12-14</idopont>
+                        <hely>IIT. 103.</hely>
+                        <oktato>Dr. Bednarik László</oktato>
+                    </kurzus>
+                    <kurzus>
+                        <kurzusnev>Fizika 2</kurzusnev>
+                        <kredit>4</kredit>
+                        <idopont>Szerda 16-18</idopont>
+                        <hely>A1/316</hely>
+                        <oktato>Pszota Gábor</oktato>
+                        <oraado>Nagy Adam</oraado>
+                    </kurzus>
+                    <kurzus>
+                        <kurzusnev>Elektronika</kurzusnev>
+                        <kredit>5</kredit>
+                        <idopont>Kedd 8-10</idopont>
+                        <hely>A1/306</hely>
+                        <oktato>Szabo Norbert</oktato>
+                    </kurzus>
+                    <kurzus>
+                        <kurzusnev>Szoftvertesztelés</kurzusnev>
+                        <kredit>5</kredit>
+                        <idopont>Hetfo 10-14</idopont>
+                        <hely>IIT. 103</hely>
+                        <oktato>Dr. Hornyák Olivér</oktato>
+                    </kurzus>
+                    <kurzus>
+                        <kurzusnev>Web Tech</kurzusnev>
+                        <kredit>5</kredit>
+                        <idopont>HEtfo 14-18</idopont>
+                        <hely>IIT. 101</hely>
+                        <oktato>Agárdi Anita</oktato>
+                    </kurzus>
+                    <kurzus>
+                        <kurzusnev>Mesterséges inteligencia</kurzusnev>
+                        <kredit>5</kredit>
+                        <idopont>Kedd 10-12</idopont>
+                        <hely>A1/XXXII</hely>
+                        <oktato>Kun Tamásné</oktato>
+                    </kurzus>
+            </kurzusok>
+</Kurzusfelvetel>   
